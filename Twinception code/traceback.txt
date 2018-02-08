@@ -1,0 +1,25 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/script.rpy", line 392, in script
+    python:
+  File "game/script.rpy", line 393, in <module>
+    syncAddC(checkTwo(sync),sync)
+TypeError: syncAddC() takes exactly 3 arguments (2 given)
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/script.rpy", line 392, in script
+    python:
+  File "C:\Users\Connor C\Desktop\renpy-6.99.11-sdk\renpy\ast.py", line 805, in execute
+    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
+  File "C:\Users\Connor C\Desktop\renpy-6.99.11-sdk\renpy\python.py", line 1641, in py_exec_bytecode
+    exec bytecode in globals, locals
+  File "game/script.rpy", line 393, in <module>
+    syncAddC(checkTwo(sync),sync)
+TypeError: syncAddC() takes exactly 3 arguments (2 given)
+
+Windows-8-6.2.9200
+Ren'Py 6.99.11.1749
+Twinception 1.0
